@@ -10,5 +10,5 @@ function convertTemperature() {
         convertedTemp = tempInput * 0.013; // Convert to Celsius
     }
 
-    document.getElementById('convertedTemp').innerText = `Converted Temperature: ${convertedTemp.toFixed(2)}`;
+    document.getElementById('convertedTemp').innerText = `Converted value: ${convertedTemp.toFixed(2)}`;
 }
